@@ -5,7 +5,7 @@ const sha256 = require('sha256');
 
 function generateWallet() {
     try {
-        const unit8Array = sha256('sundar19sat84',{asBytes: true});
+        const unit8Array = sha256('1111',{asBytes: true});
         let options = {
             algorithm : 'ecdsa-secp256k1',
             entropy: unit8Array,
