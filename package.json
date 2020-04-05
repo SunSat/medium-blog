@@ -1,0 +1,27 @@
+{
+  "name": "medium-blog",
+  "version": "1.0.0",
+  "description": "sample medium-blogs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunSat/medium-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunSat/medium-blog/issues"
+  },
+  "homepage": "https://github.com/SunSat/medium-blog#readme",
+  "dependencies": {
+    "ripple-address-codec": "^4.1.1",
+    "ripple-keypairs": "^1.0.0",
+    "ripple-lib": "^1.6.5",
+    "sha": "^3.0.0",
+    "sha256": "^0.2.0",
+    "xpring-js": "^3.0.4"
+  }
+}
