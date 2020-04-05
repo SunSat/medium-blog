@@ -21,7 +21,7 @@ function generateWallet() {
             address: classicAddress,
             publicKey: wallet.getPublicKey(),
             privateKey: wallet.getPrivateKey()
-        }
+        };
         console.log(result);
     }catch(err) {
         console.error("Error while creting account and error message is : ", err);
