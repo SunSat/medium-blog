@@ -28,3 +28,4 @@ function generateWallet() {
     }
 }
 generateWallet();
+
